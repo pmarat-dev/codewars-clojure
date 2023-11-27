@@ -4,4 +4,5 @@
 (defn lowercase_count [str]
   (count (re-seq #"[a-z]" str)))
 
+; test
 (println (lowercase_count "Hello World!"))
