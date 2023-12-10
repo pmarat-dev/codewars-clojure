@@ -5,4 +5,4 @@
   (str (count (re-seq #"[n-z]" s)) "/" (count s)))
 
 ; test
-(println (printer-error "test"))
+(println (printer-error "Hello World!"))
